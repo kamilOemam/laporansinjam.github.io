@@ -1,0 +1,46 @@
+CRITICAL - 2022-08-12 01:46:35 --> Call to a member function getResultArray() on array
+#0 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(824): App\Controllers\Lapor->cetak()
+#1 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapor))
+#2 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Study\Latihan\ci4\sinjamlaporan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Study\Latihan\ci4\sinjamlaporan\system\Commands\Server\rewrite.php(43): require_once('D:\\Study\\Latiha...')
+#5 {main}
+CRITICAL - 2022-08-12 01:47:14 --> Call to a member function getResultArray() on array
+#0 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(824): App\Controllers\Lapor->cetak()
+#1 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapor))
+#2 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Study\Latihan\ci4\sinjamlaporan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Study\Latihan\ci4\sinjamlaporan\system\Commands\Server\rewrite.php(43): require_once('D:\\Study\\Latiha...')
+#5 {main}
+CRITICAL - 2022-08-12 01:49:15 --> Call to a member function getFetchArray() on array
+#0 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(824): App\Controllers\Lapor->cetak()
+#1 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapor))
+#2 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Study\Latihan\ci4\sinjamlaporan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Study\Latihan\ci4\sinjamlaporan\system\Commands\Server\rewrite.php(43): require_once('D:\\Study\\Latiha...')
+#5 {main}
+CRITICAL - 2022-08-12 01:55:10 --> PhpOffice\PhpSpreadsheet\Style\Font::setBaseLine(): Argument #1 ($baseLine) must be of type int, string given, called in D:\Study\Latihan\ci4\sinjamlaporan\app\Controllers\Lapor.php on line 135
+#0 D:\Study\Latihan\ci4\sinjamlaporan\app\Controllers\Lapor.php(135): PhpOffice\PhpSpreadsheet\Style\Font->setBaseLine('middle')
+#1 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(824): App\Controllers\Lapor->cetak()
+#2 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapor))
+#3 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Study\Latihan\ci4\sinjamlaporan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Study\Latihan\ci4\sinjamlaporan\system\Commands\Server\rewrite.php(43): require_once('D:\\Study\\Latiha...')
+#6 {main}
+CRITICAL - 2022-08-12 01:56:29 --> PhpOffice\PhpSpreadsheet\Style\Font::setBaseLine(): Argument #1 ($baseLine) must be of type int, string given, called in D:\Study\Latihan\ci4\sinjamlaporan\app\Controllers\Lapor.php on line 135
+#0 D:\Study\Latihan\ci4\sinjamlaporan\app\Controllers\Lapor.php(135): PhpOffice\PhpSpreadsheet\Style\Font->setBaseLine('middle')
+#1 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(824): App\Controllers\Lapor->cetak()
+#2 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapor))
+#3 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Study\Latihan\ci4\sinjamlaporan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Study\Latihan\ci4\sinjamlaporan\system\Commands\Server\rewrite.php(43): require_once('D:\\Study\\Latiha...')
+#6 {main}
+CRITICAL - 2022-08-12 02:19:28 --> Invalid cell coordinate A
+#0 D:\Study\Latihan\ci4\sinjamlaporan\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Style\Style.php(218): PhpOffice\PhpSpreadsheet\Cell\Coordinate::coordinateFromString('A')
+#1 D:\Study\Latihan\ci4\sinjamlaporan\app\Controllers\Lapor.php(182): PhpOffice\PhpSpreadsheet\Style\Style->applyFromArray(Array)
+#2 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(824): App\Controllers\Lapor->cetak()
+#3 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapor))
+#4 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Study\Latihan\ci4\sinjamlaporan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Study\Latihan\ci4\sinjamlaporan\system\Commands\Server\rewrite.php(43): require_once('D:\\Study\\Latiha...')
+#7 {main}

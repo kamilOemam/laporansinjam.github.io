@@ -1,0 +1,16 @@
+CRITICAL - 2022-08-09 08:50:30 --> Undefined property: App\Controllers\Pinjaman::$lapormhsModel
+#0 D:\Study\Latihan\ci4\sinjamlaporan\app\Controllers\Pinjaman.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Study\\Latiha...', 96)
+#1 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(824): App\Controllers\Pinjaman->hapus()
+#2 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pinjaman))
+#3 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Study\Latihan\ci4\sinjamlaporan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Study\Latihan\ci4\sinjamlaporan\system\Commands\Server\rewrite.php(43): require_once('D:\\Study\\Latiha...')
+#6 {main}
+CRITICAL - 2022-08-09 09:15:03 --> Undefined property: App\Controllers\Mahasiswa::$userModel
+#0 D:\Study\Latihan\ci4\sinjamlaporan\app\Controllers\Mahasiswa.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Study\\Latiha...', 102)
+#1 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(824): App\Controllers\Mahasiswa->hapus()
+#2 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#3 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Study\Latihan\ci4\sinjamlaporan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Study\Latihan\ci4\sinjamlaporan\system\Commands\Server\rewrite.php(43): require_once('D:\\Study\\Latiha...')
+#6 {main}

@@ -1,0 +1,126 @@
+CRITICAL - 2022-08-06 02:25:25 --> Undefined property: App\Controllers\Lapor::$mahasiswaModel
+#0 D:\Study\Latihan\ci4\sinjamlaporan\app\Controllers\Lapor.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Study\\Latiha...', 26)
+#1 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(824): App\Controllers\Lapor->data()
+#2 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapor))
+#3 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Study\Latihan\ci4\sinjamlaporan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Study\Latihan\ci4\sinjamlaporan\system\Commands\Server\rewrite.php(43): require_once('D:\\Study\\Latiha...')
+#6 {main}
+CRITICAL - 2022-08-06 02:25:28 --> Undefined property: App\Controllers\Lapor::$mahasiswaModel
+#0 D:\Study\Latihan\ci4\sinjamlaporan\app\Controllers\Lapor.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Study\\Latiha...', 26)
+#1 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(824): App\Controllers\Lapor->data()
+#2 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapor))
+#3 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Study\Latihan\ci4\sinjamlaporan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Study\Latihan\ci4\sinjamlaporan\system\Commands\Server\rewrite.php(43): require_once('D:\\Study\\Latiha...')
+#6 {main}
+CRITICAL - 2022-08-06 02:25:30 --> Undefined property: App\Controllers\Lapor::$mahasiswaModel
+#0 D:\Study\Latihan\ci4\sinjamlaporan\app\Controllers\Lapor.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Study\\Latiha...', 26)
+#1 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(824): App\Controllers\Lapor->data()
+#2 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapor))
+#3 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Study\Latihan\ci4\sinjamlaporan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Study\Latihan\ci4\sinjamlaporan\system\Commands\Server\rewrite.php(43): require_once('D:\\Study\\Latiha...')
+#6 {main}
+CRITICAL - 2022-08-06 02:25:48 --> Undefined property: App\Controllers\Lapor::$lapormodel
+#0 D:\Study\Latihan\ci4\sinjamlaporan\app\Controllers\Lapor.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Study\\Latiha...', 26)
+#1 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(824): App\Controllers\Lapor->data()
+#2 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapor))
+#3 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Study\Latihan\ci4\sinjamlaporan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Study\Latihan\ci4\sinjamlaporan\system\Commands\Server\rewrite.php(43): require_once('D:\\Study\\Latiha...')
+#6 {main}
+CRITICAL - 2022-08-06 02:25:51 --> Undefined property: App\Controllers\Lapor::$lapormodel
+#0 D:\Study\Latihan\ci4\sinjamlaporan\app\Controllers\Lapor.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Study\\Latiha...', 26)
+#1 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(824): App\Controllers\Lapor->data()
+#2 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapor))
+#3 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Study\Latihan\ci4\sinjamlaporan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Study\Latihan\ci4\sinjamlaporan\system\Commands\Server\rewrite.php(43): require_once('D:\\Study\\Latiha...')
+#6 {main}
+ERROR - 2022-08-06 02:34:37 --> Duplicate entry '20195030355' for key 'PRIMARY'
+CRITICAL - 2022-08-06 02:34:37 --> Duplicate entry '20195030355' for key 'PRIMARY'
+#0 D:\Study\Latihan\ci4\sinjamlaporan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ma...', 0)
+#1 D:\Study\Latihan\ci4\sinjamlaporan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 D:\Study\Latihan\ci4\sinjamlaporan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 D:\Study\Latihan\ci4\sinjamlaporan\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 D:\Study\Latihan\ci4\sinjamlaporan\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Study\Latihan\ci4\sinjamlaporan\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\Study\Latihan\ci4\sinjamlaporan\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Study\Latihan\ci4\sinjamlaporan\app\Controllers\Mahasiswa.php(48): CodeIgniter\Model->insert(Array)
+#8 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(824): App\Controllers\Mahasiswa->tambah()
+#9 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#10 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Study\Latihan\ci4\sinjamlaporan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\Study\Latihan\ci4\sinjamlaporan\system\Commands\Server\rewrite.php(43): require_once('D:\\Study\\Latiha...')
+#13 {main}
+ERROR - 2022-08-06 02:34:40 --> Duplicate entry '20195030355' for key 'PRIMARY'
+CRITICAL - 2022-08-06 02:34:40 --> Duplicate entry '20195030355' for key 'PRIMARY'
+#0 D:\Study\Latihan\ci4\sinjamlaporan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ma...', 0)
+#1 D:\Study\Latihan\ci4\sinjamlaporan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 D:\Study\Latihan\ci4\sinjamlaporan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 D:\Study\Latihan\ci4\sinjamlaporan\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 D:\Study\Latihan\ci4\sinjamlaporan\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Study\Latihan\ci4\sinjamlaporan\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\Study\Latihan\ci4\sinjamlaporan\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Study\Latihan\ci4\sinjamlaporan\app\Controllers\Mahasiswa.php(48): CodeIgniter\Model->insert(Array)
+#8 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(824): App\Controllers\Mahasiswa->tambah()
+#9 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#10 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Study\Latihan\ci4\sinjamlaporan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\Study\Latihan\ci4\sinjamlaporan\system\Commands\Server\rewrite.php(43): require_once('D:\\Study\\Latiha...')
+#13 {main}
+ERROR - 2022-08-06 02:35:04 --> Duplicate entry '20195030355' for key 'PRIMARY'
+CRITICAL - 2022-08-06 02:35:04 --> Duplicate entry '20195030355' for key 'PRIMARY'
+#0 D:\Study\Latihan\ci4\sinjamlaporan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ma...', 0)
+#1 D:\Study\Latihan\ci4\sinjamlaporan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 D:\Study\Latihan\ci4\sinjamlaporan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 D:\Study\Latihan\ci4\sinjamlaporan\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 D:\Study\Latihan\ci4\sinjamlaporan\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Study\Latihan\ci4\sinjamlaporan\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\Study\Latihan\ci4\sinjamlaporan\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Study\Latihan\ci4\sinjamlaporan\app\Controllers\Mahasiswa.php(48): CodeIgniter\Model->insert(Array)
+#8 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(824): App\Controllers\Mahasiswa->tambah()
+#9 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#10 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Study\Latihan\ci4\sinjamlaporan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\Study\Latihan\ci4\sinjamlaporan\system\Commands\Server\rewrite.php(43): require_once('D:\\Study\\Latiha...')
+#13 {main}
+CRITICAL - 2022-08-06 03:53:30 --> Request URI segment is out of range: 2
+#0 D:\Study\Latihan\ci4\sinjamlaporan\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+#1 D:\Study\Latihan\ci4\sinjamlaporan\app\Views\template.php(13): CodeIgniter\HTTP\URI->getSegment(2)
+#2 D:\Study\Latihan\ci4\sinjamlaporan\system\View\View.php(214): include('D:\\Study\\Latiha...')
+#3 D:\Study\Latihan\ci4\sinjamlaporan\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 D:\Study\Latihan\ci4\sinjamlaporan\system\View\View.php(230): CodeIgniter\View\View->render('template', Array, true)
+#5 D:\Study\Latihan\ci4\sinjamlaporan\system\Common.php(1097): CodeIgniter\View\View->render('transaksi', Array, true)
+#6 D:\Study\Latihan\ci4\sinjamlaporan\app\Controllers\Transaksi.php(21): view('transaksi')
+#7 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(824): App\Controllers\Transaksi->index()
+#8 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#9 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Study\Latihan\ci4\sinjamlaporan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Study\Latihan\ci4\sinjamlaporan\system\Commands\Server\rewrite.php(43): require_once('D:\\Study\\Latiha...')
+#12 {main}
+CRITICAL - 2022-08-06 22:28:58 --> Undefined property: App\Controllers\Lapor::$mahasiswaModel
+#0 D:\Study\Latihan\ci4\sinjamlaporan\app\Controllers\Lapor.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Study\\Latiha...', 26)
+#1 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(824): App\Controllers\Lapor->data()
+#2 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapor))
+#3 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Study\Latihan\ci4\sinjamlaporan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Study\Latihan\ci4\sinjamlaporan\system\Commands\Server\rewrite.php(43): require_once('D:\\Study\\Latiha...')
+#6 {main}
+CRITICAL - 2022-08-06 22:29:01 --> Undefined property: App\Controllers\Lapor::$mahasiswaModel
+#0 D:\Study\Latihan\ci4\sinjamlaporan\app\Controllers\Lapor.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Study\\Latiha...', 26)
+#1 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(824): App\Controllers\Lapor->data()
+#2 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapor))
+#3 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Study\Latihan\ci4\sinjamlaporan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Study\Latihan\ci4\sinjamlaporan\system\Commands\Server\rewrite.php(43): require_once('D:\\Study\\Latiha...')
+#6 {main}
+CRITICAL - 2022-08-06 22:29:02 --> Undefined property: App\Controllers\Lapor::$mahasiswaModel
+#0 D:\Study\Latihan\ci4\sinjamlaporan\app\Controllers\Lapor.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Study\\Latiha...', 26)
+#1 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(824): App\Controllers\Lapor->data()
+#2 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapor))
+#3 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Study\Latihan\ci4\sinjamlaporan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Study\Latihan\ci4\sinjamlaporan\system\Commands\Server\rewrite.php(43): require_once('D:\\Study\\Latiha...')
+#6 {main}

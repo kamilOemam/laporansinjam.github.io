@@ -1,0 +1,28 @@
+ERROR - 2022-07-27 01:44:49 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-07-27 01:44:49 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 D:\Study\Latihan\ci4\sinjamlaporan\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Study\Latihan\ci4\sinjamlaporan\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Study\Latihan\ci4\sinjamlaporan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Study\Latihan\ci4\sinjamlaporan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\Study\Latihan\ci4\sinjamlaporan\app\Controllers\Login.php(19): CodeIgniter\BaseModel->findAll()
+#5 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Study\Latihan\ci4\sinjamlaporan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Study\Latihan\ci4\sinjamlaporan\system\Commands\Server\rewrite.php(43): require_once('D:\\Study\\Latiha...')
+#10 {main}
+ERROR - 2022-07-27 01:44:53 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-07-27 01:44:53 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 D:\Study\Latihan\ci4\sinjamlaporan\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Study\Latihan\ci4\sinjamlaporan\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Study\Latihan\ci4\sinjamlaporan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Study\Latihan\ci4\sinjamlaporan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\Study\Latihan\ci4\sinjamlaporan\app\Controllers\Login.php(19): CodeIgniter\BaseModel->findAll()
+#5 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 D:\Study\Latihan\ci4\sinjamlaporan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Study\Latihan\ci4\sinjamlaporan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Study\Latihan\ci4\sinjamlaporan\system\Commands\Server\rewrite.php(43): require_once('D:\\Study\\Latiha...')
+#10 {main}

@@ -1,0 +1,164 @@
+ERROR - 2022-07-23 00:45:37 --> Unknown column 'id_brg' in 'where clause'
+CRITICAL - 2022-07-23 00:45:37 --> Unknown column 'id_brg' in 'where clause'
+#0 D:\Study\Latihan\ci4\sinjam-master\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 D:\Study\Latihan\ci4\sinjam-master\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 D:\Study\Latihan\ci4\sinjam-master\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 D:\Study\Latihan\ci4\sinjam-master\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 D:\Study\Latihan\ci4\sinjam-master\system\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Study\Latihan\ci4\sinjam-master\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_unique('35', 'id_brg', Array, NULL)
+#6 D:\Study\Latihan\ci4\sinjam-master\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('idbrg', 'Kode Barang', '35', Array, Array)
+#7 D:\Study\Latihan\ci4\sinjam-master\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 D:\Study\Latihan\ci4\sinjam-master\app\Controllers\Barang.php(67): CodeIgniter\Controller->validate(Array)
+#9 D:\Study\Latihan\ci4\sinjam-master\system\CodeIgniter.php(824): App\Controllers\Barang->simpandata()
+#10 D:\Study\Latihan\ci4\sinjam-master\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#11 D:\Study\Latihan\ci4\sinjam-master\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Study\Latihan\ci4\sinjam-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 D:\Study\Latihan\ci4\sinjam-master\system\Commands\Server\rewrite.php(43): require_once('D:\\Study\\Latiha...')
+#14 {main}
+ERROR - 2022-07-23 00:45:58 --> Unknown column 'id_brg' in 'where clause'
+CRITICAL - 2022-07-23 00:45:58 --> Unknown column 'id_brg' in 'where clause'
+#0 D:\Study\Latihan\ci4\sinjam-master\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 D:\Study\Latihan\ci4\sinjam-master\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 D:\Study\Latihan\ci4\sinjam-master\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 D:\Study\Latihan\ci4\sinjam-master\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 D:\Study\Latihan\ci4\sinjam-master\system\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Study\Latihan\ci4\sinjam-master\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_unique('35764575', 'id_brg', Array, NULL)
+#6 D:\Study\Latihan\ci4\sinjam-master\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('idbrg', 'Kode Barang', '35764575', Array, Array)
+#7 D:\Study\Latihan\ci4\sinjam-master\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 D:\Study\Latihan\ci4\sinjam-master\app\Controllers\Barang.php(67): CodeIgniter\Controller->validate(Array)
+#9 D:\Study\Latihan\ci4\sinjam-master\system\CodeIgniter.php(824): App\Controllers\Barang->simpandata()
+#10 D:\Study\Latihan\ci4\sinjam-master\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#11 D:\Study\Latihan\ci4\sinjam-master\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Study\Latihan\ci4\sinjam-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 D:\Study\Latihan\ci4\sinjam-master\system\Commands\Server\rewrite.php(43): require_once('D:\\Study\\Latiha...')
+#14 {main}
+CRITICAL - 2022-07-23 00:47:16 --> Request URI segment is out of range: 2
+#0 D:\Study\Latihan\ci4\sinjam-master\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+#1 D:\Study\Latihan\ci4\sinjam-master\app\Views\template.php(13): CodeIgniter\HTTP\URI->getSegment(2)
+#2 D:\Study\Latihan\ci4\sinjam-master\system\View\View.php(214): include('D:\\Study\\Latiha...')
+#3 D:\Study\Latihan\ci4\sinjam-master\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 D:\Study\Latihan\ci4\sinjam-master\system\View\View.php(230): CodeIgniter\View\View->render('template', Array, true)
+#5 D:\Study\Latihan\ci4\sinjam-master\system\Common.php(1097): CodeIgniter\View\View->render('transaksi', Array, true)
+#6 D:\Study\Latihan\ci4\sinjam-master\app\Controllers\Transaksi.php(21): view('transaksi')
+#7 D:\Study\Latihan\ci4\sinjam-master\system\CodeIgniter.php(824): App\Controllers\Transaksi->index()
+#8 D:\Study\Latihan\ci4\sinjam-master\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#9 D:\Study\Latihan\ci4\sinjam-master\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Study\Latihan\ci4\sinjam-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Study\Latihan\ci4\sinjam-master\system\Commands\Server\rewrite.php(43): require_once('D:\\Study\\Latiha...')
+#12 {main}
+ERROR - 2022-07-23 01:53:25 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-07-23 01:53:25 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 D:\Study\Latihan\ci4\sinjam-master\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Study\Latihan\ci4\sinjam-master\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Study\Latihan\ci4\sinjam-master\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Study\Latihan\ci4\sinjam-master\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\Study\Latihan\ci4\sinjam-master\app\Controllers\Barang.php(33): CodeIgniter\BaseModel->findAll()
+#5 D:\Study\Latihan\ci4\sinjam-master\system\CodeIgniter.php(824): App\Controllers\Barang->ambildata()
+#6 D:\Study\Latihan\ci4\sinjam-master\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 D:\Study\Latihan\ci4\sinjam-master\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Study\Latihan\ci4\sinjam-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Study\Latihan\ci4\sinjam-master\system\Commands\Server\rewrite.php(43): require_once('D:\\Study\\Latiha...')
+#10 {main}
+ERROR - 2022-07-23 01:53:32 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-07-23 01:53:32 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 D:\Study\Latihan\ci4\sinjam-master\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Study\Latihan\ci4\sinjam-master\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Study\Latihan\ci4\sinjam-master\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Study\Latihan\ci4\sinjam-master\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\Study\Latihan\ci4\sinjam-master\app\Controllers\Barang.php(33): CodeIgniter\BaseModel->findAll()
+#5 D:\Study\Latihan\ci4\sinjam-master\system\CodeIgniter.php(824): App\Controllers\Barang->ambildata()
+#6 D:\Study\Latihan\ci4\sinjam-master\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 D:\Study\Latihan\ci4\sinjam-master\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Study\Latihan\ci4\sinjam-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Study\Latihan\ci4\sinjam-master\system\Commands\Server\rewrite.php(43): require_once('D:\\Study\\Latiha...')
+#10 {main}
+CRITICAL - 2022-07-23 02:17:05 --> Array to string conversion
+#0 D:\Study\Latihan\ci4\sinjam-master\app\Views\barang\databarang.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'D:\\Study\\Latiha...', 29)
+#1 D:\Study\Latihan\ci4\sinjam-master\system\View\View.php(214): include('D:\\Study\\Latiha...')
+#2 D:\Study\Latihan\ci4\sinjam-master\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Study\Latihan\ci4\sinjam-master\system\Common.php(1097): CodeIgniter\View\View->render('barang/databara...', Array, true)
+#4 D:\Study\Latihan\ci4\sinjam-master\app\Controllers\Barang.php(37): view('barang/databara...', Array)
+#5 D:\Study\Latihan\ci4\sinjam-master\system\CodeIgniter.php(824): App\Controllers\Barang->ambildata()
+#6 D:\Study\Latihan\ci4\sinjam-master\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 D:\Study\Latihan\ci4\sinjam-master\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Study\Latihan\ci4\sinjam-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Study\Latihan\ci4\sinjam-master\system\Commands\Server\rewrite.php(43): require_once('D:\\Study\\Latiha...')
+#10 {main}
+CRITICAL - 2022-07-23 02:19:17 --> Array to string conversion
+#0 D:\Study\Latihan\ci4\sinjam-master\app\Views\barang\databarang.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'D:\\Study\\Latiha...', 29)
+#1 D:\Study\Latihan\ci4\sinjam-master\system\View\View.php(214): include('D:\\Study\\Latiha...')
+#2 D:\Study\Latihan\ci4\sinjam-master\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Study\Latihan\ci4\sinjam-master\system\Common.php(1097): CodeIgniter\View\View->render('barang/databara...', Array, true)
+#4 D:\Study\Latihan\ci4\sinjam-master\app\Controllers\Barang.php(37): view('barang/databara...', Array)
+#5 D:\Study\Latihan\ci4\sinjam-master\system\CodeIgniter.php(824): App\Controllers\Barang->ambildata()
+#6 D:\Study\Latihan\ci4\sinjam-master\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 D:\Study\Latihan\ci4\sinjam-master\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Study\Latihan\ci4\sinjam-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Study\Latihan\ci4\sinjam-master\system\Commands\Server\rewrite.php(43): require_once('D:\\Study\\Latiha...')
+#10 {main}
+CRITICAL - 2022-07-23 02:45:19 --> Trying to access array offset on value of type null
+#0 D:\Study\Latihan\ci4\sinjam-master\app\Controllers\Barang.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\Study\\Latiha...', 134)
+#1 D:\Study\Latihan\ci4\sinjam-master\system\CodeIgniter.php(824): App\Controllers\Barang->formedit()
+#2 D:\Study\Latihan\ci4\sinjam-master\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#3 D:\Study\Latihan\ci4\sinjam-master\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Study\Latihan\ci4\sinjam-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Study\Latihan\ci4\sinjam-master\system\Commands\Server\rewrite.php(43): require_once('D:\\Study\\Latiha...')
+#6 {main}
+CRITICAL - 2022-07-23 02:46:51 --> Trying to access array offset on value of type null
+#0 D:\Study\Latihan\ci4\sinjam-master\app\Controllers\Barang.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\Study\\Latiha...', 134)
+#1 D:\Study\Latihan\ci4\sinjam-master\system\CodeIgniter.php(824): App\Controllers\Barang->formedit()
+#2 D:\Study\Latihan\ci4\sinjam-master\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#3 D:\Study\Latihan\ci4\sinjam-master\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Study\Latihan\ci4\sinjam-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Study\Latihan\ci4\sinjam-master\system\Commands\Server\rewrite.php(43): require_once('D:\\Study\\Latiha...')
+#6 {main}
+CRITICAL - 2022-07-23 02:49:25 --> Trying to access array offset on value of type null
+#0 D:\Study\Latihan\ci4\sinjam-master\app\Controllers\Barang.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\Study\\Latiha...', 134)
+#1 D:\Study\Latihan\ci4\sinjam-master\system\CodeIgniter.php(824): App\Controllers\Barang->formedit()
+#2 D:\Study\Latihan\ci4\sinjam-master\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#3 D:\Study\Latihan\ci4\sinjam-master\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Study\Latihan\ci4\sinjam-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Study\Latihan\ci4\sinjam-master\system\Commands\Server\rewrite.php(43): require_once('D:\\Study\\Latiha...')
+#6 {main}
+CRITICAL - 2022-07-23 09:09:06 --> Undefined variable $idbrg
+#0 D:\Study\Latihan\ci4\sinjam-master\app\Views\barang\modaledit.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Study\\Latiha...', 17)
+#1 D:\Study\Latihan\ci4\sinjam-master\system\View\View.php(214): include('D:\\Study\\Latiha...')
+#2 D:\Study\Latihan\ci4\sinjam-master\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Study\Latihan\ci4\sinjam-master\system\Common.php(1097): CodeIgniter\View\View->render('barang/modaledi...', Array, true)
+#4 D:\Study\Latihan\ci4\sinjam-master\app\Controllers\Barang.php(140): view('barang/modaledi...', Array)
+#5 D:\Study\Latihan\ci4\sinjam-master\system\CodeIgniter.php(824): App\Controllers\Barang->formedit()
+#6 D:\Study\Latihan\ci4\sinjam-master\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 D:\Study\Latihan\ci4\sinjam-master\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Study\Latihan\ci4\sinjam-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Study\Latihan\ci4\sinjam-master\system\Commands\Server\rewrite.php(43): require_once('D:\\Study\\Latiha...')
+#10 {main}
+CRITICAL - 2022-07-23 10:02:54 --> Request URI segment is out of range: 2
+#0 D:\Study\Latihan\ci4\sinjam-master\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+#1 D:\Study\Latihan\ci4\sinjam-master\app\Views\template.php(13): CodeIgniter\HTTP\URI->getSegment(2)
+#2 D:\Study\Latihan\ci4\sinjam-master\system\View\View.php(214): include('D:\\Study\\Latiha...')
+#3 D:\Study\Latihan\ci4\sinjam-master\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 D:\Study\Latihan\ci4\sinjam-master\system\View\View.php(230): CodeIgniter\View\View->render('template', Array, true)
+#5 D:\Study\Latihan\ci4\sinjam-master\system\Common.php(1097): CodeIgniter\View\View->render('transaksi', Array, true)
+#6 D:\Study\Latihan\ci4\sinjam-master\app\Controllers\Transaksi.php(21): view('transaksi')
+#7 D:\Study\Latihan\ci4\sinjam-master\system\CodeIgniter.php(824): App\Controllers\Transaksi->index()
+#8 D:\Study\Latihan\ci4\sinjam-master\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#9 D:\Study\Latihan\ci4\sinjam-master\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Study\Latihan\ci4\sinjam-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Study\Latihan\ci4\sinjam-master\system\Commands\Server\rewrite.php(43): require_once('D:\\Study\\Latiha...')
+#12 {main}
+CRITICAL - 2022-07-23 10:02:59 --> Request URI segment is out of range: 2
+#0 D:\Study\Latihan\ci4\sinjam-master\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+#1 D:\Study\Latihan\ci4\sinjam-master\app\Views\template.php(13): CodeIgniter\HTTP\URI->getSegment(2)
+#2 D:\Study\Latihan\ci4\sinjam-master\system\View\View.php(214): include('D:\\Study\\Latiha...')
+#3 D:\Study\Latihan\ci4\sinjam-master\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 D:\Study\Latihan\ci4\sinjam-master\system\View\View.php(230): CodeIgniter\View\View->render('template', Array, true)
+#5 D:\Study\Latihan\ci4\sinjam-master\system\Common.php(1097): CodeIgniter\View\View->render('transaksi', Array, true)
+#6 D:\Study\Latihan\ci4\sinjam-master\app\Controllers\Transaksi.php(21): view('transaksi')
+#7 D:\Study\Latihan\ci4\sinjam-master\system\CodeIgniter.php(824): App\Controllers\Transaksi->index()
+#8 D:\Study\Latihan\ci4\sinjam-master\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#9 D:\Study\Latihan\ci4\sinjam-master\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Study\Latihan\ci4\sinjam-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Study\Latihan\ci4\sinjam-master\system\Commands\Server\rewrite.php(43): require_once('D:\\Study\\Latiha...')
+#12 {main}
